@@ -1,7 +1,14 @@
 
 public class Exemplos {
 	public static void main(String[] args) {
-		int idade = 17;
+
+		ehMaiorIdade(19);
+		ehMaiorIdade(16);
+		ehMaiorIdade(30);
+
+	}
+
+	public static void ehMaiorIdade(int idade) {
 
 		if (idade >= 18) {
 
@@ -12,6 +19,27 @@ public class Exemplos {
 			System.out.println("MENOR DE IDADE");
 
 		}
+	}
+
+	public static void classificar(int num) {
+
+		if (num > 0) {
+
+			System.out.println("ESSE NÚMERO É POSITIVO");
+
+		} else {
+			if (num < 0) {
+
+				System.out.println("ESSE NÚMERO É NEGATIVO");
+
+			} else {
+
+				System.out.println("ESSE NÚMERO É 0");
+
+			}
+
+		}
+
 	}
 
 }
