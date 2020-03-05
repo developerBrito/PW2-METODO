@@ -5,6 +5,7 @@ public class Exemplos {
 		ehMaiorIdade(19);
 		ehMaiorIdade(16);
 		ehMaiorIdade(30);
+		classificar(-5);
 
 	}
 
